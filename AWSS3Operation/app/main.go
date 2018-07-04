@@ -21,7 +21,7 @@ func main() {
   fmt.Println("\n", client, "\n====================")
 
   /* Bucket List */
-  // client.ListBuckets()
+  client.ListBuckets()
 
   /* Bucket Create */
   // client.CreateBucket(BucketName)

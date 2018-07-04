@@ -1,7 +1,8 @@
 version: "3.2"
 services:
   app:
-    image: golang:1.10-stretch
+    build: .
+    image: awss3operation:latest
     container_name: myapp
     volumes:
       - ./app:/go/src/app
