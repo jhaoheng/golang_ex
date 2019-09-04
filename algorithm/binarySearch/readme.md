@@ -1,0 +1,2 @@
+![img](./Binary-Search.png)
+
